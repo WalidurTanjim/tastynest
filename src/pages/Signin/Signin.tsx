@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Signin.css';
 import { Link } from 'react-router-dom';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
 
 const Signin = () => {
     const [showPassword, setShowPassword] = useState<boolean>(false);
@@ -13,9 +14,9 @@ const Signin = () => {
     return (
         <div className="signUp w-full min-h-screen flex items-center justify-center">
             <div className="container mx-auto w-full sm:w-4/5 md:w-4/6 lg:w-2/6 px-2 sm:px-6 lg:px-8 py-10">
-                <h1 className="text-center text-2xl md:text-3xl lg:text-4xl text-slate-700 font-medium">Signin Here</h1>
+                <SectionTitle title='Signin Here' />
 
-                <form className="w-fullmt-10">
+                <form className="w-full mt-10">
                     <div className="email w-full mb-4">
                         <label htmlFor="email">Email address</label>
                         <input type="email" id="email" placeholder="Email address" autoComplete="off" required className="custom-input" />

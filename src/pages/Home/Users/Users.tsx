@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { User } from "../../../types/usersType";
 import { fetchUser } from "../../../hooks/useAllUsers";
 import SingleUser from "../../../components/User/SingleUser";
+import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 
 const Users = () => {
     const [users, setUsers] = useState<User[]>([]);
@@ -52,7 +53,7 @@ const Users = () => {
     return (
         <div className="users w-full">
             <div className="container mx-auto w-full px-2 sm:px-6 lg:px-8 py-10">
-                <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium text-slate-700 text-center">All Users</h1>
+                <SectionTitle title="All Users" />
 
                 {
                     users ?
