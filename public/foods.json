@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Margherita Pizza",
+    "category": "pizza",
+    "description": "Classic pizza with tomato sauce, mozzarella cheese, and fresh basil.",
+    "price": 12.99,
+    "thumb": "https://i.ibb.co.com/6JPR1G7F/margherita-pizza.jpg",
+    "quantity": 5,
+    "addedDate": "15-07-2025",
+    "author": {
+      "authorName": "Alex Marino",
+      "authorEmail": "alex@example.com",
+      "authorImage": "https://i.ibb.co/yBqf8K7/author1.jpg"
+    }
+  },
+  {
+    "name": "Tom Yum Soup",
+    "category": "soup",
+    "description": "Spicy Thai soup with shrimp, mushrooms, and fragrant herbs.",
+    "price": 8.5,
+    "thumb": "https://i.ibb.co.com/SDDX3yzs/tomato-sasil-soup.jpg",
+    "quantity": 5,
+    "addedDate": "15-07-2025",
+    "author": {
+      "authorName": "Lina Chow",
+      "authorEmail": "lina@example.com",
+      "authorImage": "https://i.ibb.co/YdV8zdF/author2.jpg"
+    }
+  },
+  {
+    "name": "Chocolate Lava Cake",
+    "category": "dessert",
+    "description": "Warm chocolate cake with a gooey molten center.",
+    "price": 6.75,
+    "thumb": "https://i.ibb.co.com/S4NnPnFh/chocolate-lava-cakes.jpg",
+    "quantity": 5,
+    "addedDate": "15-07-2025",
+    "author": {
+      "authorName": "David Lin",
+      "authorEmail": "david@example.com",
+      "authorImage": "https://i.ibb.co/GvHymM3/author3.jpg"
+    }
+  },
+  {
+    "name": "Caesar Salad",
+    "category": "salad",
+    "description": "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan.",
+    "price": 7.25,
+    "thumb": "https://i.ibb.co.com/6cBt7LZX/caesar-salad.jpg",
+    "quantity": 5,
+    "addedDate": "15-07-2025",
+    "author": {
+      "authorName": "Sara Cooper",
+      "authorEmail": "sara@example.com",
+      "authorImage": "https://i.ibb.co/JvTwM82/author4.jpg"
+    }
+  },
+  {
+    "name": "Mango Smoothie",
+    "category": "drinks",
+    "description": "Chilled tropical mango smoothie with a creamy finish.",
+    "price": 4.99,
+    "thumb": "https://i.ibb.co.com/fYYkR3yf/lemon-Iced-Tea.jpg",
+    "quantity": 5,
+    "addedDate": "15-07-2025",
+    "author": {
+      "authorName": "Nina Rahman",
+      "authorEmail": "nina@example.com",
+      "authorImage": "https://i.ibb.co/BBYKnLd/author5.jpg"
+    }
+  },
+  {
+    "name": "BBQ Chicken Pizza",
+    "category": "pizza",
+    "description": "Savory BBQ chicken pizza with red onions and mozzarella.",
+    "price": 14.49,
+    "thumb": "https://i.ibb.co.com/6JPR1G7F/margherita-pizza.jpg",
+    "quantity": 5,
+    "addedDate": "15-07-2025",
+    "author": {
+      "authorName": "Kevin Bryant",
+      "authorEmail": "kevin@example.com",
+      "authorImage": "https://i.ibb.co/kM9ySvn/author6.jpg"
+    }
+  },
+  {
+    "name": "Miso Soup",
+    "category": "soup",
+    "description": "Japanese soup with tofu, seaweed, and green onions in miso broth.",
+    "price": 5.5,
+    "thumb": "https://i.ibb.co.com/SDDX3yzs/tomato-sasil-soup.jpg",
+    "quantity": 5,
+    "addedDate": "15-07-2025",
+    "author": {
+      "authorName": "Yuki Arai",
+      "authorEmail": "yuki@example.com",
+      "authorImage": "https://i.ibb.co/qmybsTJ/author7.jpg"
+    }
+  },
+  {
+    "name": "Strawberry Cheesecake",
+    "category": "dessert",
+    "description": "Creamy cheesecake topped with fresh strawberries and glaze.",
+    "price": 6.95,
+    "thumb": "https://i.ibb.co.com/S4NnPnFh/chocolate-lava-cakes.jpg",
+    "quantity": 5,
+    "addedDate": "15-07-2025",
+    "author": {
+      "authorName": "Olivia Chen",
+      "authorEmail": "olivia@example.com",
+      "authorImage": "https://i.ibb.co/gVt3Y2V/author8.jpg"
+    }
+  },
+  {
+    "name": "Greek Salad",
+    "category": "salad",
+    "description": "Refreshing salad with cucumbers, olives, feta cheese, and tomatoes.",
+    "price": 6.5,
+    "thumb": "https://i.ibb.co.com/6cBt7LZX/caesar-salad.jpg",
+    "quantity": 5,
+    "addedDate": "15-07-2025",
+    "author": {
+      "authorName": "George Mitros",
+      "authorEmail": "george@example.com",
+      "authorImage": "https://i.ibb.co/mJgfs3c/author9.jpg"
+    }
+  },
+  {
+    "name": "Iced Caramel Latte",
+    "category": "drinks",
+    "description": "Chilled espresso blended with milk and caramel syrup.",
+    "price": 5.25,
+    "thumb": "https://i.ibb.co.com/fYYkR3yf/lemon-Iced-Tea.jpg",
+    "quantity": 5,
+    "addedDate": "15-07-2025",
+    "author": {
+      "authorName": "Brian Carter",
+      "authorEmail": "brian@example.com",
+      "authorImage": "https://i.ibb.co/sRb7mK7/author10.jpg"
+    }
+  },
+  {
+    "name": "Hawaiian Pizza",
+    "category": "pizza",
+    "description": "Pizza topped with ham, pineapple, and mozzarella cheese.",
+    "price": 13.5,
+    "thumb": "https://i.ibb.co.com/6JPR1G7F/margherita-pizza.jpg",
+    "quantity": 5,
+    "addedDate": "15-07-2025",
+    "author": {
+      "authorName": "Diana Ray",
+      "authorEmail": "diana@example.com",
+      "authorImage": "https://i.ibb.co/VjQ0hd1/author11.jpg"
+    }
+  },
+  {
+    "name": "Chicken Noodle Soup",
+    "category": "soup",
+    "description": "Comforting soup with tender chicken, noodles, and vegetables.",
+    "price": 7.0,
+    "thumb": "https://i.ibb.co.com/SDDX3yzs/tomato-sasil-soup.jpg",
+    "quantity": 5,
+    "addedDate": "15-07-2025",
+    "author": {
+      "authorName": "Sofia Khan",
+      "authorEmail": "sofia@example.com",
+      "authorImage": "https://i.ibb.co/4Wh64gs/author12.jpg"
+    }
+  }
+]
