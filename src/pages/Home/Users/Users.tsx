@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import type { User } from "../../../types/usersType";
 import { fetchUser } from "../../../hooks/useAllUsers";
-import SingleUser from "../../../components/User/SingleUser";
+import SingleUser from "../../../components/SingleUser/SingleUser";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 
 const Users = () => {

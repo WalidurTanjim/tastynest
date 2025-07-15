@@ -2,13 +2,14 @@ import { useEffect, useState } from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import type { Post } from "../../../types/postsType";
 import fetchPosts from "../../../hooks/useAllPosts";
+import SinglePost from "../../../components/SinglePost/SinglePost";
 
 const Posts = () => {
     const [posts, setPosts] = useState<Post[]>([]);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
-    console.log("All posts from home page:", posts);
-    console.log("Loading from home page posts:", loading);
+    // console.log("All posts from home page:", posts);
+    // console.log("Loading from home page posts:", loading);
 
     // useEffect (load all posts)
     useEffect(() => {
@@ -52,6 +53,16 @@ const Posts = () => {
         <div className="users w-full">
             <div className="container mx-auto px-2 sm:px-6 lg:px-8 py-10">
                 <SectionTitle title="All Posts" />
+
+                {
+                    posts ?
+                    <div className="grid gap-5 grid-cols-1 sm:grid-cosl-2 md:grid-cols-3 lg:grid-cols-4 mt-10">
+                        {
+                            posts?.map(post => <SinglePost key={post.id} post={post} />)
+                        }
+                    </div>
+                    : undefined
+                }
             </div>
         </div>
     );
