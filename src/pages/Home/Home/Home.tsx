@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import Posts from "../Posts/Posts";
+import Todos from "../Todos/Todos";
 import Users from "../Users/Users";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
                 <Banner />
                 <Users />
                 <Posts />
+                <Todos />
             </div>
         </div>
     );
