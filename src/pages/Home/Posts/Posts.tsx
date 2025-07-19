@@ -1,38 +1,13 @@
-import { useEffect, useState } from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
-import type { Post } from "../../../types/postsType";
-import fetchPosts from "../../../hooks/useAllPosts";
+import useAllPosts from "../../../hooks/useAllPosts";
 import SinglePost from "../../../components/SinglePost/SinglePost";
 
 const Posts = () => {
-    const [posts, setPosts] = useState<Post[]>([]);
-    const [loading, setLoading] = useState<boolean>(true);
-    const [error, setError] = useState<string | null>(null);
-    // console.log("All posts from home page:", posts);
-    // console.log("Loading from home page posts:", loading);
+    const { posts, isPending, isError, error } = useAllPosts();
+    // console.log("useAllPosts response from home page:", posts, isPending, isError, error);
 
-    // useEffect (load all posts)
-    useEffect(() => {
-        const loadPosts = async() => {
-            try{
-                setLoading(true);
-                const res = await fetchPosts();
-                if(res?.status === 200){
-                    setPosts(res?.data);
-                }else{
-                    setError(res?.message);
-                }
-            }catch(err){
-                setError(err instanceof Error ? err?.message : 'An Error Occured');
-            }finally{
-                setLoading(false);
-            }
-        }
-        loadPosts();
-    }, []);
-
-    // loading
-    if(loading){
+    // isPending
+    if(isPending){
         return (
             <div className="text-center py-20">
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium text-slate-700">Loading...</h1>
@@ -40,11 +15,11 @@ const Posts = () => {
         )
     }
 
-    // error
-    if(error){
+    // isError
+    if(isError){
         return (
             <div className="text-center py-20">
-                <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium text-red-600">{error}</h1>
+                <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium text-red-600">{error?.message}</h1>
             </div>
         )
     }
